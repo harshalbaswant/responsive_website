@@ -187,3 +187,33 @@ margin-top: 10px;
 .sectionTag{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+.thumbnail img{
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 26px;
+    margin-top: 19px;
+}
+
+.contact{
+    background-color: #f6f5f4;
+    height: 90vh;
+}
+.text-center{
+text-align: center;
+}
+
+.form{
+    max-width: 500px;
+    margin: 42px auto;
+
+}
+
+.form input{
+    margin: 30px 0; 
+    padding: 5px 3px;
+    width: 100%;
+    font-size: 19px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    /* padding: 5px; */
+}
