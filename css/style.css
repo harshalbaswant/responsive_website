@@ -68,7 +68,7 @@
 
 
 
-.rightnav {
+.rightNav {
     width: 30%;
     /* background-color: aquamarine; */
     text-align: right;
@@ -265,15 +265,16 @@
     /* background-color: gray; */
 }
 
-.burger{
-position: absolute;
-cursor: pointer;
-right: 5%;
-top: 15px;
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
 
 }
 
-.line{
+.line {
     width: 33px;
     background-color: white;
     height: 4px;
@@ -285,16 +286,33 @@ top: 15px;
         flex-direction: column;
 
     }
-    .navbar{
+
+    .navbar {
         flex-direction: column;
     }
-    .rightnav{
+
+    .rightNav {
         /* width: 30%; */
         text-align: center;
     }
-#search{
-    width: 100%;
-}
-    
 
+    #search {
+
+
+        width: 100%;
+    }
+
+    .burger {
+        display: block;
+
+    }
+
+    .h-nav-resp {
+        height: 72px;
+
+    }
+
+    .v-class {
+        opacity: 0;
+    }
 }
