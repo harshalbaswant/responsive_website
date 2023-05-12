@@ -8,6 +8,9 @@
     padding: 0;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 
 .logo {
     width: 15%;
@@ -19,7 +22,9 @@
 }
 
 .logo img {
-    width: 50%;
+    width: 41%;
+    margin: 8px;
+    margin-left: 55px;
     border: 3px solid white;
     border-radius: 50%;
 }
@@ -31,6 +36,7 @@
     position: sticky;
     top: 0;
     cursor: pointer;
+   
 
 
 }
@@ -161,7 +167,7 @@
 }
 
 .section {
-    height: 400px;
+    /* height: 400px; */
     max-width: 80%;
     display: flex;
     align-items: center;
@@ -169,6 +175,7 @@
     max-width: 80%;
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
 
 
 }
@@ -225,7 +232,7 @@
 }
 
 .form {
-    max-width: 1200px;
+    max-width: 62%;
     margin: 26px auto;
 
 }
@@ -289,6 +296,8 @@
 
     .navbar {
         flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 542px;
     }
 
     .rightNav {
@@ -314,4 +323,30 @@
     .v-class {
         opacity: 0;
     }
+
+    .box-main {
+  flex-direction: column-reverse;
+  max-width: 100%;
+    }
+    .section {
+        flex-direction: column-reverse;
+    }
+    .text-small{
+        text-align: center;
+    }
+
+    .text-big{
+        text-align: center;
+    }
+
+    .buttons{
+        text-align: center;
+    }
+    .paras {
+        padding: 0px;
+    
+    }
+
+    
+
 }
