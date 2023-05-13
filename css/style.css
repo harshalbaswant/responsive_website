@@ -8,7 +8,8 @@
     padding: 0;
 
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
 
@@ -36,7 +37,7 @@ html{
     position: sticky;
     top: 0;
     cursor: pointer;
-   
+
 
 
 }
@@ -142,7 +143,7 @@ html{
 }
 
 .text-small {
-    font-size: 14px;
+    font-size: 21px;
     margin-top: 10px;
 }
 
@@ -157,6 +158,14 @@ html{
     cursor: pointer;
     margin-top: 15px;
     font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    
+    
 }
 
 .btn-sm {
@@ -176,6 +185,8 @@ html{
     margin: auto;
     font-family: 'Ubuntu', sans-serif;
     padding: 10px;
+    /* background-image: url(/images/white-graphics.jpg); */
+    /* background-color: aqua; */
 
 
 }
@@ -220,9 +231,29 @@ html{
 }
 
 .contact {
+    margin-top: 43px;
     background-color: #f5f2ef;
-    height: 700px;
+
+    height: 672pxpx;
+
 }
+
+.contact-image {
+    /* opacity: 0.1; */
+    background-image: url("/images/low_opacity.jpeg");
+
+}
+
+.bg-image {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.bg-image img{
+    width: 100%;
+}
+
 
 .text-center {
     text-align: center;
@@ -288,65 +319,11 @@ html{
     margin: 5px 3px;
 }
 
-@media only screen and (max-width:1140px) {
-    .nav-list {
-        flex-direction: column;
-
-    }
-
-    .navbar {
-        flex-direction: column;
-        transition: all 0.7s ease-out;
-        height: 542px;
-    }
-
-    .rightNav {
-        /* width: 30%; */
-        text-align: center;
-    }
-
-    #search {
-
-        width: 100%;
-    }
-
-    .burger {
-        display: block;
-
-    }
-
-    .h-nav-resp {
-        height: 72px;
-
-    }
-
-    .v-class {
-        opacity: 0;
-    }
-
-    .box-main {
-  flex-direction: column-reverse;
-  max-width: 100%;
-    }
-    .section {
-        flex-direction: column-reverse;
-    }
-    .text-small{
-        text-align: center;
-    }
-
-    .text-big{
-        text-align: center;
-    }
-
-    .buttons{
-        text-align: center;
-    }
-    .paras {
-        padding: 0px;
-    
-    }
-
-    
+.bg-middle{
+     /* background-image: url("/images/low_opacity.jpeg"); */
+     /* background-color: aqua; */
+     background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+     
 
 }
